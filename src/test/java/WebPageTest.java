@@ -20,9 +20,9 @@ public class WebPageTest
     public void titleValidationTest()
     {
         String actualTitle = driver.getTitle();
-        String expectedTitle = "My simple website";
+        String expectedTitle = "Myweb";
         Assert.assertEquals(actualTitle, expectedTitle);
-        assertTrue(true, "Title should contain 'simple'");
+        assertTrue(true, "Title should contain 'myweb'");
     }
     @AfterTest
     public void closeBrowser() throws InterruptedException
